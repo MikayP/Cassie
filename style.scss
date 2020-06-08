@@ -13,6 +13,18 @@ body {
   nav{
   
     background-color: transparent;
+
+    
+    .in-view{
+        left:0vw !important;
+    }
+    li{
+        list-style: none;
+        margin:20px 10px;
+    }
+  }
+
+  @media(max-width:767px){
     #menu-primary{
         // display:none ;
         @media(max-width:767px){
@@ -25,20 +37,10 @@ body {
             height: 100%;
             left: 100vw;
             z-index: 1;
-            transition:all 1s ease-in-out;
+            transition:all 400ms ease-in-out;
         }
 
     }
-    .in-view{
-        left:0vw !important;
-    }
-    li{
-        list-style: none;
-        margin:20px 10px;
-    }
-  }
-
-
 .hamburger {
     position: absolute;
     top: 10%;
@@ -113,8 +115,12 @@ body {
       }
  
   }
+  }
 
   @media(min-width:768px){
+      .hamburger{
+          display:none;
+      }
     #menu-primary{
         display:block !important;
     }
