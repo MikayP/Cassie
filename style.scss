@@ -3,13 +3,42 @@ Theme Name: Mike's Theme
 Author: Mike Portman
 Version: 1.0
 */
+@mixin tabletMax {
+    @media (max-width: 767px) { @content; }
+  }
+  @mixin tabletMin {
+    @media (min-width: 768px) { @content; }
+  }
 
+  .row{
+      display:flex;
+      .col-sm-12{
+          flex:1;
+      }
+  }
+  .container{
+      padding:10px 7%;
+  }
+  li{
+      list-style:none;
+  }
+  ul{
+      padding-left:0px;
+  }
 body {
-
 
     background-color: rgba(255, 0, 0, 0.427) !important;
   }
 
+  h2{
+      font-size:3em;
+  }
+  .center-in-div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
   nav{
   
     background-color: transparent;
@@ -24,10 +53,10 @@ body {
     }
   }
 
-  @media(max-width:767px){
+ @include tabletMax{
     #menu-primary{
         // display:none ;
-        @media(max-width:767px){
+
             text-align: right;
             margin-top: 100px;
             position: absolute;
@@ -38,7 +67,7 @@ body {
             left: 100vw;
             z-index: 1;
             transition:all 400ms ease-in-out;
-        }
+
 
     }
 .hamburger {
@@ -117,7 +146,7 @@ body {
   }
   }
 
-  @media(min-width:768px){
+  @include tabletMin(){
       .hamburger{
           display:none;
       }
@@ -140,3 +169,25 @@ body {
         }
       }
   }
+
+
+  // Home
+.home{
+    .home-image{
+        height:100vh;
+        @include tabletMin{
+          height:calc(100vh - 68px);
+        }
+  
+        background-position: center;
+        background-size: cover;
+       .center-in-div{
+           padding:0px 10%;
+           top:45%;
+       }
+    }
+  section{
+      text-align: center;
+  }
+
+}

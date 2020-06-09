@@ -13,7 +13,7 @@
 <?php
 function consultation_button(){
 ?>
-    <a class="consulation-button">Schedule Consultation</a>
+    <button class="consulation-button"><h3>Schedule Consultation</h3></button>
 <?php
 }?>
 

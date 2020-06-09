@@ -3,8 +3,44 @@ Theme Name: Mike's Theme
 Author: Mike Portman
 Version: 1.0
 */
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row .col-sm-12 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container {
+  padding: 10px 7%;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
 body {
   background-color: rgba(255, 0, 0, 0.427) !important;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.center-in-div {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
 }
 
 nav {
@@ -20,7 +56,7 @@ nav li {
   margin: 20px 10px;
 }
 
-@media (max-width: 767px) and (max-width: 767px) {
+@media (max-width: 767px) {
   #menu-primary {
     text-align: right;
     margin-top: 100px;
@@ -34,9 +70,6 @@ nav li {
     -webkit-transition: all 400ms ease-in-out;
     transition: all 400ms ease-in-out;
   }
-}
-
-@media (max-width: 767px) {
   .hamburger {
     position: absolute;
     top: 10%;
@@ -148,5 +181,26 @@ nav li {
   nav li {
     display: inline;
   }
+}
+
+.home .home-image {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .home .home-image {
+    height: calc(100vh - 68px);
+  }
+}
+
+.home .home-image .center-in-div {
+  padding: 0px 10%;
+  top: 45%;
+}
+
+.home section {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
