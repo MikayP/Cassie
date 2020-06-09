@@ -11,11 +11,11 @@ get_header(); ?>
   <div id="content" role="main">
 
  <h1>Home</h1>
- <!-- <div class="row">\
+<div class="row">
  changes
  <div class="col-md-3">a</div>
  <div class="col-md-3">a</div>
- <div class="col-md-3">a</div></div> -->
+ <div class="col-md-3">a</div></div>
 
   </div><!-- #content -->
 </div><!-- #primary -->
