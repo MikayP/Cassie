@@ -1,8 +1,9 @@
 <?php
 
 function main_css(){
-    wp_enqueue_style('main_style', get_stylesheet_uri());
     wp_enqueue_style( 'bootstrap_css', get_stylesheet_directory_uri() . '/library/css/bootstrap.min.css' );
+    wp_enqueue_style('main_style', get_stylesheet_uri());
+  
 }
 
 function my_scripts() {

@@ -3,6 +3,41 @@ Theme Name: Mike's Theme
 Author: Mike Portman
 Version: 1.0
 */
+@font-face {
+  font-family: ffSansSerif;
+  src: url(./library/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: ffSansSerif;
+  background-color: #fff;
+  color: #grey;
+}
+
+p, li {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.4em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+.center-in-div {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,7 +51,7 @@ Version: 1.0
 }
 
 .container {
-  padding: 10px 7%;
+  padding: 10px 3%;
 }
 
 li {
@@ -25,22 +60,6 @@ li {
 
 ul {
   padding-left: 0px;
-}
-
-body {
-  background-color: rgba(255, 0, 0, 0.427) !important;
-}
-
-h2 {
-  font-size: 3em;
-}
-
-.center-in-div {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  text-align: center;
 }
 
 nav {
@@ -201,6 +220,11 @@ nav li {
 }
 
 .home section {
+  padding: 10px 3%;
   text-align: center;
+}
+
+.home section:nth-of-type(even) {
+  background-color: rgba(161, 179, 176, 0.187);
 }
 /*# sourceMappingURL=style.css.map */
