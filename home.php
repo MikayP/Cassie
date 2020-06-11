@@ -76,10 +76,11 @@ get_header(); ?>
 
 <section class="section-5">
   <h3>How It Works</h3>
-  <div class="row ">
-    <div class="col-sm-12 col-md-4 ">
+  <div class="col-sm-12 col-md-4 ">
       <?php consultation_button(); ?>
     </div>
+  <div class="row ">
+
     <div class="col-sm-12 col-md-4  ">
       <h4 class="">Learn your rights and develop a plan
 

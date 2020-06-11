@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title><?php bloginfo( 'name' ); ?></title>
     <?php wp_head(); ?>
@@ -16,11 +17,11 @@ function consultation_button(){
     <button class="consulation-button"><h3>Schedule Consultation</h3></button>
 <?php
 }?>
-
-<nav>
 <div class="hamburger">
   <span></span>
 </div>
+<nav>
+
 <?php $args = [ 'theme_location' => 'primary' ];
 wp_nav_menu( $args ); 
 ?>
