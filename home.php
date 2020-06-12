@@ -24,9 +24,18 @@ get_header(); ?>
       draining their money, energy, and love for each other. That isn’t who
       you are</h4>
     <ul>
-      <li>Are you unsure where to begin or how to proceed legally?</li>
-      <li>Do you feel hurt by your partner?</li>
-      <li>Are you worried about your kids?</li>
+    <div data-aos="fade-right">
+    <li><i class="fas fa-arrow-circle-right"></i>Are you unsure where to begin or how to proceed legally?</li>
+    </div>
+    <div data-aos="fade-right">
+    <li><i class="fas fa-arrow-circle-right"></i>Are you worried about your kids?</li>
+      </div>
+      <div data-aos="fade-right">
+      <li><i class="fas fa-arrow-circle-right"></i>Do you feel hurt by your partner?</li>
+      </div>
+     
+
+
     </ul>
   </section>
 
@@ -35,10 +44,16 @@ get_header(); ?>
     <h4>At Catherine Baron Law, peace of mind comes first.</h4>
     <p>What if you could:</p>
     <ul>
-      <li>Find a place of confidence to move forward in the process NOW</li>
-      <li>Protect your relationships and give your children the stability and
+    <div data-aos="fade-right">
+      <li><i class="fas fa-arrow-circle-right"></i>Find a place of confidence to move forward in the process NOW</li>
+</div>
+      <div data-aos="fade-right">
+      <li><i class="fas fa-arrow-circle-right"></i>Protect your relationships and give your children the stability and
         love they need to grow</li>
-      <li>Finish the process ready for a fresh and healthy start</li>
+</div>
+        <div data-aos="fade-right">
+      <li><i class="fas fa-arrow-circle-right"></i>Finish the process ready for a fresh and healthy start</li>
+</div>
     </ul>
   </section>
 
@@ -66,25 +81,32 @@ get_header(); ?>
 <section class="section-4">
   <h3>What if you could:</h3>
   <ul>
-    <li>Find a place of confidence to move forward in the process NOW</li>
-    <li>Protect your relationships and give your children the stability and
+  <div data-aos="fade-right">
+    <li><i class="fas fa-arrow-circle-right"></i>Find a place of confidence to move forward in the process NOW</li>
+</div>
+    <div data-aos="fade-right">
+    <li><i class="fas fa-arrow-circle-right"></i>Protect your relationships and give your children the stability and
       love they need to grow</li>
-    <li>Finish the process ready for a fresh and healthy start</li>
-  </ul>
+</div>
+      <div data-aos="fade-right">
+      <li><i class="fas fa-arrow-circle-right"></i>Finish the process ready for a fresh and healthy start</li>
+</div>
+    </ul>
 
 </section>
 
 <section class="section-5">
   <h3>How It Works</h3>
-  <div class="col-sm-12 col-md-4 ">
-      <?php consultation_button(); ?>
-    </div>
+
   <div class="row ">
 
     <div class="col-sm-12 col-md-4  ">
       <h4 class="">Learn your rights and develop a plan
 
         and strategy with Catherine</h4>
+    </div>
+    <div class="col-sm-12 col-md-4 ">
+      <?php consultation_button(); ?>
     </div>
     <div class="col-sm-12 col-md-4  ">
       <h4 class="">Move forward with confidence

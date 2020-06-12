@@ -1,11 +1,13 @@
 <?php
 
 function main_css(){
+
     wp_enqueue_style( 'bootstrap_css', get_stylesheet_directory_uri() . '/library/css/bootstrap.min.css' );
     wp_enqueue_style('main_style', get_stylesheet_uri());
-  
-}
 
+}
+wp_enqueue_style( 'aos', "https://unpkg.com/aos@next/dist/aos.css");
+wp_enqueue_script( 'Font_Awesome', "https://kit.fontawesome.com/6262261ff4.js");
 function my_scripts() {
     // Register the script like this for a plugin:
     wp_enqueue_script( 'bootstrap_js', get_template_directory_uri()  . '/library/js/bootstrap.min.js', array('jquery'), '1.0', true);

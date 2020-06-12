@@ -30,6 +30,18 @@ h4 {
   font-size: 1.3em;
 }
 
+i {
+  margin-right: 10px;
+}
+
+p, li, h2, h3, h4 {
+  padding-bottom: 5px;
+}
+
+ul {
+  margin: 0 auto;
+}
+
 .center-in-div {
   position: relative;
   top: 50%;
@@ -42,26 +54,13 @@ h4 {
   display: none;
 }
 
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.row .col-sm-12 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
 .container {
   padding: 10px 3%;
 }
 
 li {
   list-style: none;
+  margin: 1.5em 0;
 }
 
 ul {
@@ -215,6 +214,14 @@ nav li {
   }
 }
 
+.footer {
+  text-align: center;
+}
+
+.footer hr {
+  width: 60%;
+}
+
 .home .home-image {
   height: 100vh;
   background-position: center;
@@ -233,6 +240,7 @@ nav li {
 }
 
 .home section {
+  margin: 2em 0 0;
   padding: 10px 3%;
   text-align: center;
 }
