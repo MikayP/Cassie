@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Factoria Demi';
+    src: url('Factoria-DemiItalic.eot');
+    src: local('Factoria Demi Italic'), local('Factoria-DemiItalic'),
+        url('Factoria-DemiItalic.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-DemiItalic.woff2') format('woff2'),
+        url('Factoria-DemiItalic.woff') format('woff'),
+        url('Factoria-DemiItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-Thin.eot');
+    src: local('Factoria Thin'), local('Factoria-Thin'),
+        url('Factoria-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-Thin.woff2') format('woff2'),
+        url('Factoria-Thin.woff') format('woff'),
+        url('Factoria-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-BoldItalic.eot');
+    src: local('Factoria Bold Italic'), local('Factoria-BoldItalic'),
+        url('Factoria-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-BoldItalic.woff2') format('woff2'),
+        url('Factoria-BoldItalic.woff') format('woff'),
+        url('Factoria-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-ThinItalic.eot');
+    src: local('Factoria Thin Italic'), local('Factoria-ThinItalic'),
+        url('Factoria-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-ThinItalic.woff2') format('woff2'),
+        url('Factoria-ThinItalic.woff') format('woff'),
+        url('Factoria-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-Medium.eot');
+    src: local('Factoria Medium'), local('Factoria-Medium'),
+        url('Factoria-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-Medium.woff2') format('woff2'),
+        url('Factoria-Medium.woff') format('woff'),
+        url('Factoria-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-Black.eot');
+    src: local('Factoria Black'), local('Factoria-Black'),
+        url('Factoria-Black.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-Black.woff2') format('woff2'),
+        url('Factoria-Black.woff') format('woff'),
+        url('Factoria-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-Light.eot');
+    src: local('Factoria Light'), local('Factoria-Light'),
+        url('Factoria-Light.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-Light.woff2') format('woff2'),
+        url('Factoria-Light.woff') format('woff'),
+        url('Factoria-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Factoria Demi';
+    src: url('Factoria-Demi.eot');
+    src: local('Factoria Demi'), local('Factoria-Demi'),
+        url('Factoria-Demi.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-Demi.woff2') format('woff2'),
+        url('Factoria-Demi.woff') format('woff'),
+        url('Factoria-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-Bold.eot');
+    src: local('Factoria Bold'), local('Factoria-Bold'),
+        url('Factoria-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-Bold.woff2') format('woff2'),
+        url('Factoria-Bold.woff') format('woff'),
+        url('Factoria-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Factoria Ultra';
+    src: url('Factoria-Ultra.eot');
+    src: local('Factoria Ultra'), local('Factoria-Ultra'),
+        url('Factoria-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-Ultra.woff2') format('woff2'),
+        url('Factoria-Ultra.woff') format('woff'),
+        url('Factoria-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Factoria Book';
+    src: url('Factoria-Book.eot');
+    src: local('Factoria Book'), local('Factoria-Book'),
+        url('Factoria-Book.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-Book.woff2') format('woff2'),
+        url('Factoria-Book.woff') format('woff'),
+        url('Factoria-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-LightItalic.eot');
+    src: local('Factoria Light Italic'), local('Factoria-LightItalic'),
+        url('Factoria-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-LightItalic.woff2') format('woff2'),
+        url('Factoria-LightItalic.woff') format('woff'),
+        url('Factoria-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Factoria Book';
+    src: url('Factoria-BookItalic.eot');
+    src: local('Factoria Book Italic'), local('Factoria-BookItalic'),
+        url('Factoria-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-BookItalic.woff2') format('woff2'),
+        url('Factoria-BookItalic.woff') format('woff'),
+        url('Factoria-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Factoria Ultra';
+    src: url('Factoria-UltraItalic.eot');
+    src: local('Factoria Ultra Italic'), local('Factoria-UltraItalic'),
+        url('Factoria-UltraItalic.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-UltraItalic.woff2') format('woff2'),
+        url('Factoria-UltraItalic.woff') format('woff'),
+        url('Factoria-UltraItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-BlackItalic.eot');
+    src: local('Factoria Black Italic'), local('Factoria-BlackItalic'),
+        url('Factoria-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-BlackItalic.woff2') format('woff2'),
+        url('Factoria-BlackItalic.woff') format('woff'),
+        url('Factoria-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Factoria';
+    src: url('Factoria-MediumItalic.eot');
+    src: local('Factoria Medium Italic'), local('Factoria-MediumItalic'),
+        url('Factoria-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Factoria-MediumItalic.woff2') format('woff2'),
+        url('Factoria-MediumItalic.woff') format('woff'),
+        url('Factoria-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+

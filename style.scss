@@ -16,14 +16,29 @@ Version: 1.0
 }
 
 @font-face{
-    font-family:ffSansSerif;
+    font-family:roboto;
     src: url(./library/Roboto/Roboto-Regular.ttf);
 }
+@font-face{
+    font-family:factoria-lite;
+    src: url(./library/Factoria/Factoria-Light.ttf)
+}
+@font-face{
+    font-family:rift;
+    src:url(./library/Rift_2/Rift-light.otf) format("opentype");
 
+}
+@font-face{
+    font-family:rockwell;
+    src:url(./library/rockwell/rockwen.ttf);
+
+}
 body {
-    font-family: ffSansSerif ;
-    background-color: #fff ;
-    color:black ;
+    font-family: rockwell,'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    // background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    color:#676767;
 }
 
 p,li{
@@ -31,11 +46,17 @@ p,li{
 
 }
 
+h1{
+    font-size:4.5em;
+    color:white;
+}
+
+
 h2 {
     font-size: 3em;
 }
 h3{
-    font-size:2.4em;
+    font-size:1.8em;
 }
 h4{
     font-size:1.3em;
@@ -45,6 +66,25 @@ i{
 }
 p,li,h2,h3,h4{
     padding-bottom:5px;
+    font-family:rift;
+}
+
+h2,h3,h4{
+    color:#444;
+}
+
+.consultation-button{
+    background-color:transparent;
+    border-radius:8px;
+    transition: box-shadow .45s;
+    h3{
+   
+        margin:0;
+        padding:5px;
+    }
+    &:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.5); 
+    }
 }
 ul{
   
@@ -59,6 +99,7 @@ ul{
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
+    width:100%;
 }
 .none{
     display:none;
@@ -82,18 +123,27 @@ li {
 
 ul {
     padding-left: 0px;
+    text-align:left;
 }
 
 // Nav
 nav {
 
     background-color: transparent;
-
-
+    z-index:1;
+    a{
+        color:white;
+    }
+    @include tabletMin{
+        position: absolute;
+        right:0%;
+    }
+ 
     .in-view {
         left: 0vw !important;
 
     }
+
 
     li {
         list-style: none;
@@ -102,6 +152,7 @@ nav {
 }
 
 .hamburger {
+    z-index:1;
     position: absolute;
     top: 10%;
     right: 0px;
@@ -239,31 +290,66 @@ nav {
 
 // Home
 .home {
-    .home-image {
+    .video{
+        h2{
+            color:white;
+        }
+
         height: 100vh;
-
-        @include tabletMin {
-            height: calc(100vh - 68px);
+        .home-image {
+            height:100vh;
+            display:none;
+            
+            // height: 100vh;
+           @include tabletMin {
+               display:block;
+                object-fit: fill;
+                width: 100%;
+                height:100vh;
+            }
+            width:100%;
+    
         }
-
-        background-position: center;
-        background-size: cover;
-
-        .center-in-div {
-            padding: 0px 10%;
-            top: 45%;
+        .content{
+            position: absolute;
+            top: 40%;
+            left: 5%;
         }
+    &:before{
+        content: '';
+        position: absolute;
+        height:100vh;
+        width: 100%;
+        background: rgba(38, 38, 38, 0.728); //Change as per your requirement
+    }
+    .consultation-button{
+        border:2px solid white;
+        margin:10px;
+        h3{
+            color:white;
+        }
+    }
     }
 
     section {
         margin: 2em 0 0;
         padding:10px 3%;
+        min-height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         &:nth-of-type(even){
 
-            background-color:rgba(161, 179, 176, 0.187);
+            background-color:rgba(216, 234, 253, 0.817);
         }
 
     }
 
+    .section-1{
+        i{
+            font-size:5em;
+            margin:25px 0;
+        }
+    }
 }

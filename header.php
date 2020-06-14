@@ -14,17 +14,24 @@
 <?php
 function consultation_button(){
 ?>
-    <button class="consulation-button"><h3>Schedule Consultation</h3></button>
+    <button class="consultation-button"><h3>Schedule Consultation</h3></button>
 <?php
 }?>
 <div class="hamburger">
   <span></span>
 </div>
-<nav>
+
+<?php
+function the_nav(){
+?>
+   <nav>
 
 <?php $args = [ 'theme_location' => 'primary' ];
 wp_nav_menu( $args ); 
 ?>
 
 </nav>
+<?php
+}?>
+
 
