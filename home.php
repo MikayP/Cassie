@@ -62,8 +62,9 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="section-2">
-    <div class="row">
+  <section class="section-2" style="background-image:url(/wp-content/uploads/2020/06/Austin-Skyline.jpg)">
+  <div class="layer"></div> 
+  <div class="row">
       <div class="col-xs-12 col-md-6">
         <div class="center-in-div">
 
@@ -77,16 +78,16 @@ get_header(); ?>
 
       <div class="col-xs-12 col-md-6">
         <ul >
-          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
             <li><i class="fas fa-arrow-circle-right"></i>Find a place of confidence to move forward in the process NOW
             </li>
           </div>
-          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
             <li><i class="fas fa-arrow-circle-right"></i>Protect your relationships and give your children the stability
               and
               love they need to grow</li>
           </div>
-          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
             <li><i class="fas fa-arrow-circle-right"></i>Finish the process ready for a fresh and healthy start</li>
           </div>
         </ul>
@@ -102,14 +103,18 @@ get_header(); ?>
         divorce can last a lifetime – emotionally,
         financially, and for your children. That’s why I
         want to help.</h3>
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <img src="https://picsum.photos/seed/picsum/300/300">
+      <div class="row"  data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
+        <div class="col-sm-12 col-md-6 main-img">
+          <div class="client-img"  style="background:url(/wp-content/uploads/2020/06/cb-main-scaled.jpg);"></div>
         </div>
-        <div class="col-sm-12 col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-          <h4 class="center-in-div">I have received the Superlawyer’s
+        <div class="col-sm-12 col-md-6">
+          <div class="center-in-div">
+          <h4 class="">I have received the Superlawyer’s
             Rising Star Award for 2018-2020
             and a 10/10 rating on Avvo.com</h4>
+            <?php consultation_button(); ?>
+          </div>
+       
         </div>
       </div>
     </div>
@@ -117,25 +122,27 @@ get_header(); ?>
 
 
 
-
-  <section class="section-4">
-    <div class="">
+  <section class="section-4" style="background-image:url(/wp-content/uploads/2020/06/gettyimages-507850475_wide-e729499092c4106cff752cea8a2c49623c1595d3-s800-c85.jpg
+)">
+  <div class="layer"></div>
+    <div class="" style=" z-index: 0;">
       <h3>What if you could:</h3>
       <ul>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
           <li><i class="fas fa-arrow-circle-right"></i>Find a place of confidence to move forward in the process NOW
           </li>
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
           <li><i class="fas fa-arrow-circle-right"></i>Protect your relationships and give your children the stability
             and
             love they need to grow</li>
         </div>
-        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
           <li><i class="fas fa-arrow-circle-right"></i>Finish the process ready for a fresh and healthy start</li>
         </div>
       </ul>
     </div>
+  
   </section>
 
   <section class="section-5">
@@ -161,8 +168,9 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="section-6">
-    <div class="">
+  <section class="section-6" style="background:url(/wp-content/uploads/2020/06/family-law.jpg)">
+    <div class="layer"></div> 
+    <div class="" style=" z-index: 0;">
       <h3>Take control of your family law matter...</h3>
       <div class="row ">
         <div class="col-sm-12">

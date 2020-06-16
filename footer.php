@@ -1,14 +1,16 @@
-<hr>
-<div class="footer">
-<p>*Disclaimer: the information printed on this website is not legal advice, and may or may not
+
+  <footer>
+  <p>*Disclaimer: the information printed on this website is not legal advice, and may or may not
      apply to the facts of your case or reflect the most updated laws. For current information specific to your case,
       please contact an attorney.</p>
       <hr>
 <p>
-1111 E. 11th St. Suite 350, Austin TX, 78702 <span>|| </span> (512) 522-8892
+<a href="https://goo.gl/maps/oT2p4kLY9pV6KzsV6">1111 E. 11th St. Suite 350, Austin TX, 78702</a> <span>|| </span> (512) 522-8892
 </p>
 <p>© Catherine Baron Law, PLLC. All Rights Reserved.</p>
-</div>
+
+  </footer>
+
 
 
 <?php wp_footer(); ?>

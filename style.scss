@@ -37,7 +37,7 @@ $box-shadow:  0 0 11px rgba(33,33,33,.5);
 }
 body {
     font-family: rockwell,'Times New Roman', Times, serif;
-    background-color: #ffffff;
+    background-color: #FDFAEE;
     // background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     color:#676767;
@@ -46,6 +46,10 @@ body {
 p,li{
     font-size:1.3em;
 
+
+}
+i{
+    color:#1DB689;
 }
 
 h1{
@@ -68,26 +72,31 @@ i{
 }
 p,li,h2,h3,h4{
     padding-bottom:5px;
-    font-family:rift;
+    font-family:roboto;
 }
 
 h2,h3,h4{
-    color:#444;
+    color:#404042;
 }
 
-.consultation-button{
-    background-color:transparent;
+.consultation-button, .consultation{
+    background-color:#ec6633;
     border-radius:8px;
     transition: box-shadow .45s;
+    border:1px solid #ec6633;
+
+
     h3{
-   
+        color:white;
         margin:0;
         padding:5px;
     }
     &:hover{
         box-shadow:  $box-shadow;
+        cursor: pointer;
     }
 }
+
 ul{
   
   @include tabletMin{
@@ -127,7 +136,13 @@ ul {
     padding-left: 0px;
     text-align:left;
 }
-
+a{
+    color:#fdfaee;
+    &:hover{
+        text-decoration: none;
+        color:#fdfaee;
+    }
+}
 // Nav
 nav {
 
@@ -146,7 +161,9 @@ nav {
 
     }
 
-
+    .consultation{
+        padding:4px 16px;
+    }
     li {
         list-style: none;
         margin: 20px 10px;
@@ -283,11 +300,14 @@ nav {
 }
 
 // Footer 
-.footer{
+footer{
     text-align:center;
-    hr{
-        width:60%;
-    }
+    background-color:#3C3C3C;
+  padding:10px 10%;
+  color:#fdfaee;
+  p{
+      font-size:.8em;
+  }
 }
 
 // Home
@@ -335,19 +355,43 @@ nav {
     }
 
     section {
-        margin: 2em;
+        margin: 2em 0;
         padding:10px 3%;
         min-height: 40vh;
         display: flex;
         justify-content: center;
-        border-radius: 8px;
+        position: relative;
         align-items: center;
         text-align: center;
+        .client-img{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            margin: 0 auto;
+            background-position: 43% 13% !important;
+            background-size: cover !important;
+        }
         &:nth-of-type(even){
             box-shadow: $box-shadow;
+            background-size: cover !important;
+            background-position: center !important;
+            i{
+                color:#1DB689;
+            }
+            h3,h4,p, li{
+                color:#fdfaee;
+            }
+          
         }
   
-
+        .layer{
+            background-color: rgba(87, 87, 87, 0.81);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     }
 
     .section-1{
