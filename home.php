@@ -149,7 +149,7 @@ get_header(); ?>
     <div class="">
       <h3>How It Works</h3>
 
-      <div class="row ">
+      <div class="row " data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
 
         <div class="col-sm-12 col-md-4  ">
           <h4 class="">Learn your rights and develop a plan
@@ -172,7 +172,7 @@ get_header(); ?>
     <div class="layer"></div> 
     <div class="" style=" z-index: 0;">
       <h3>Take control of your family law matter...</h3>
-      <div class="row ">
+      <div class="row " data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
         <div class="col-sm-12">
           <p>Litigation is well known for turning troubled relationships toxic. So
             how do you protect yourself and your family while your life is turned
@@ -185,7 +185,7 @@ get_header(); ?>
   <section class="section-7">
     <div class="">
       <h3>Want to know more?</h3>
-      <div class="row ">
+      <div class="row " data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
         <div class="col-sm-12">
           <p>Sign up here to download Catherine’s free EBook “How to Protect
             Your Stuff and Your Kids During Divorce” and to receive tips on
